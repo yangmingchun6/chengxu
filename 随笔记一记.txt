@@ -1,0 +1,17 @@
+﻿关联远程库   git remote add origin 加地址
+推送内容   git push -u origin master
+克隆   git clone 加地址
+查看  $ cd gitskills
+$ ls
+README.md
+
+创建分支  git checkout -b 加名称
+查看当前分支   git branch
+切换分支   git checkout 加名称     git checkout master
+添加本地库   git add readme.txt
+git commit -m "branch test"
+
+git merge dev 把dev合并到master
+合并完成后可以放心得删除分支dev   git branch -d dev
+git merge --no-ff -m 合并分支
+注意应该在主函数家相应的子函数中，
